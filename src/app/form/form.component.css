@@ -1,0 +1,24 @@
+.container {
+    text-align:center;
+    background-color: brown;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    height: 400px;
+    width: 400px;
+    color: white;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
+button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    background-color:aquamarine;
+    width: 150px;
+    height: 30px;
+}
+.output {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:deeppink;
+    font-size: 30px;
+}

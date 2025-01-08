@@ -1,0 +1,14 @@
+<div class="container">
+    <form [formGroup] = "data">
+        <p>{{ text }}</p>
+        <label for="content">Content: </label><br>
+        <textarea id="content" name="content" formControlName="content" cols="40" rows="5"></textarea><br><br>
+        <button type="submit" (click) = "triggerSubmit()">Submit</button>
+    </form>
+
+    <br><br>
+    <p>
+    Here's the submitted text:<br><br>
+    <span class="output">{{ result }}</span>
+    </p>
+</div>
